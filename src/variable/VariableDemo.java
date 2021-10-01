@@ -19,6 +19,7 @@ public class VariableDemo {
 
 
         int age=25;
+     System.out.println("*********Printing city and age  " +city + " "+ age+ " " + country);
 
         System.out.println("Age is " +age);
         int marks =75;
