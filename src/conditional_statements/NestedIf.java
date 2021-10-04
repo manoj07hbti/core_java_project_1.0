@@ -38,5 +38,11 @@ public class NestedIf {
             System.out.println("AND OPERATOR false block");
         }
 
+        int age=19;
+
+        if (age>0 && age > 18 && age <150){
+
+        }
+
     }
 }
