@@ -9,6 +9,9 @@ public class LoopsDemo {
         // increment for loop
         for (int i=0; i<5; i++){
             System.out.println("Hello..." +i);
+            if(i==2){
+                break;
+            }
         }
 
         // SYNTAX: for ( variable initialization ; condition ; decrement ) {CODE}
@@ -17,7 +20,9 @@ public class LoopsDemo {
         for (int j=5; j>0 ; j--){
 
             System.out.println("Decrement for loop ...Hello..." +j);
-
+            if(j==2){
+                break;
+            }
         }
     }
 }
