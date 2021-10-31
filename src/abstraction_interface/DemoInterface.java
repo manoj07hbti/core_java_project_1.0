@@ -1,4 +1,4 @@
-package abstration_interface;
+package abstraction_interface;
 
 public  interface DemoInterface {
 
